@@ -17,11 +17,11 @@ public class Garage {
 			
 		}
 
-	public void totalrepaircost() {	
+	public void totalrepaircost(Vehicles ve) {	
 		
 		for(Vehicles machine : vehicle) {
 			
-			System.out.println("Total repair cost - " +machine.bill());
+			System.out.println("Total repair cost for " + machine.getName() +"- " +machine.bill());
 		}
 		
 	}
